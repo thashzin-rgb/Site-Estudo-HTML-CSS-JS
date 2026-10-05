@@ -1,0 +1,58 @@
+@media screen and (max-width: 600px){
+  
+   header {
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+   }
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 10px; /* espaçamento entre os itens */
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 10px; /* espaçamento entre os itens */
+  }
+
+  #login {
+    order: 5; /* garante que ele fique no fim da lista */
+    align-self: center;
+    margin-top: 10px;
+    border: 2px solid #f00514; /* reaplica a borda, se quiser manter estilo */
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+  h1{
+    font-size: 40px ;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 25px;
+  }
+  h2{
+    line-height: 35px;
+  }
+
+ article{
+   display: none;
+ } 
+  form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    width: 80%;
+  }
+  input{
+    
+  }
+}

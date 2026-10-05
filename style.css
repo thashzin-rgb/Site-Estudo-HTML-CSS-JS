@@ -1,4 +1,89 @@
-html {
-  height: 100%;
-  width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+   background-color: #f0c90a;
+   color: #e37209;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 16px;
+   font-family: "Inter", sans-serif;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#title{
+  flex-direction: column;
+  line-height: 10px;
+}
+h1 {
+  font-weight: 800;
+}
+#inscreva-se {
+  color: #f00514;
+}
+h2 {
+  font-size: 60px;
+  line-height: 25px;
+
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+li {
+  display: inline-block;
+  font-size: 20px;
+}
+#login{
+  background: transparent;
+  border: 2px solid #f00514;
+  border-radius: 20px;
+  padding: 10px
+
+}
+#login:hover {
+  background: #f00514;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: #e37209;
+  margin-inline: 20px;
+}
+a:hover {
+  color: #db0913;
+  transition: 0.4s all;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  
+}
+input[type="submit"]{
+  width: 30%;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+  
+}
+input[type="submit"]:hover{
+  color: white;
+  background: #db0913;
+  transition: 0,4s;
+}
+input {
+  width: 70%;
+  color: black;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 30px;
+  background: #ed8e40;
+  border: none;
+}
+li{
+  font-weight: 600;
 }
